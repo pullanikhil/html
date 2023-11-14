@@ -1,0 +1,19 @@
+.title{
+  color: red;font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  word-spacing: 10;
+  text-decoration:underline black;
+  text-align: center;
+}
+/* class name is always starts with dot 
+as many calss as we want add*/
+p{
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+.subtitle{
+  color: aquamarine;
+  text-align: left;
+}
