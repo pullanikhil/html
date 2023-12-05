@@ -1,0 +1,105 @@
+.navigate{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    color: rgb(205, 13, 13);
+   
+}
+body{
+    background-color: rgba(0, 0, 0, 0.71);
+    background-image: url(https://media.istockphoto.com/id/500684623/photo/old-paper-texture-with-film-border.webp?b=1&s=170667a&w=0&k=20&c=ojjdni231CDDJoFPWU9xgoi5YkqhDsB8A6WCkswYL6E=);
+    color: white;
+}
+.signbtn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: brown;
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container{
+    justify-content: center;
+    width: 300px;
+    background-color: rgba(247, 242, 245, 0.55);
+    padding: 40px 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+h1{
+    font-size: 30px;
+    color: rgb(15, 14, 15);
+    font-weight: 800;
+    justify-content: center;
+    text-align: center;
+}
+label{
+    font-size: 15px;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+.signbtn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+}
+.welcome{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: rgb(5, 5, 5);
+    font-size: 40px;
+    font-weight: 900;
+    justify-content: center;
+    padding-left: 30px;
+}
+select{
+    width: 250px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+.terms{
+    display: inline-flex;
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+}
